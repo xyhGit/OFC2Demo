@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+<title>line Dot</title>
+
+<script type="text/javascript" src="../jquery/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="../ofc2/js/swfobject.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+        swfobject.embedSWF("../ofc2/open-flash-chart.swf", 
+							"chart", 
+							"550", 
+							"300", 
+							"9.0.0",
+							"expressInstall.swf",
+							{"data-file":"line!dot"});
+							}); 
+</script>
+
+</head>
+<body>
+	<div id="chart"></div>	
+</body>
+</html>
